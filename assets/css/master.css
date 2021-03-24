@@ -5,6 +5,9 @@
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
+body {
+  background-color: #151515;
+}
 
 .slider-container {
   width: 100vw;
@@ -17,10 +20,36 @@
 img {
   width: 600px;
 }
+
 .controls {
   margin: 0 20px;
   font-size: 40px;
+  cursor: pointer;
+  color: #949399;
 }
+
+.slider-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-nav {
+  margin-top: 20px;
+}
+
+.slider-nav i {
+  color: #000;
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.slider-nav i.active {
+  color: #949399;
+}
+
+
+
 
 /* UTILITY */
 .text-white {

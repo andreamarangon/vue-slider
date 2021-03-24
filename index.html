@@ -13,13 +13,21 @@
   <div id="root">
     <div class="slider-container">
       <div class="controls prev">
-        <i class="fas fa-chevron-left"></i>
+        <i class="fas fa-chevron-left" @click='prev'></i>
       </div>
-      <div class="">
-        <img :src="imgs[2]" alt="">
+      <div class="slider-img">
+        <img :src="imgs[index]" alt="">
+        <nav class="slider-nav">
+          <i
+            class="fas fa-circle"
+            v-for='dot in imgs.length'
+            :class="(dot - 1 == index) ? 'active' : '' "
+            @click="dotSelection(dot - 1)"            
+          ></i>
+        </nav>
       </div>
       <div class="controls next">
-        <i class="fas fa-chevron-right"></i>
+        <i class="fas fa-chevron-right" @click='next'></i>
       </div>
     </div>
   </div>
