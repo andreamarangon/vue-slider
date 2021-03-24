@@ -5,7 +5,7 @@ var app = new Vue({
     imgs:[
       'https://i1.wp.com/fotografiaartistica.it/wp-content/uploads/2011/09/hengkikoentjoro1-1.jpg?ssl=1',
       'https://www.caitorino.it/media/media_gallery/img/foto_sergio_chiappino_9.jpg',
-      'https://lh3.googleusercontent.com/proxy/48NM-sTkcy4rBH2shcM9WUZJiX_5AbEgiQ8ajTHn5KtJuE5G1Om8qBTGYS7B2E8iDUWYAJMqwYjtKDIW3KDRKiwefA3PJxeO6jlywg'
+      'https://i.pinimg.com/originals/74/13/7f/74137ffb35569f612e81f7a57a7e3ee2.jpg'
     ]
   },
   methods: {
